@@ -9,23 +9,6 @@
 
 
 
-    <script>
-        function onCalculate() {
-            let numberOne = document.getElementById('numberOne');
-            let numberTwo = document.getElementById('numberTwo');
-            const operator = document.getElementById('operator');
-            const result = document.getElementById('result');
-
-            numberOne = Number(numberOne.value)
-            numberTwo = Number(numberTwo.value)
-
-            result.innerText = 'Our Result is: ' + eval(numberOne + operator.value + numberTwo);
-        }
-
-    </script>
-
-
-
 </head>
 
 <body style="background-color: black;">
@@ -43,7 +26,33 @@
 
     </div>
 
-    <form class="p-5">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <form class="p-5">
         <label for="numberOne" class="form-label">Total Marks</label>
         <input type="text" id="numberOne" class="form-control">
 
@@ -52,14 +61,16 @@
             <input type="text" id="numberTwo" class="form-control">
         </div>
 
-        <div class="mb-3 mt-3">
+        <!-- <div class="mb-3 mt-3">
             <label for="operator" class="form-label">Operator</label>
             <input type="text" id="operator" class="form-control">
-        </div>
+        </div> -->
 
-        <button type="button" class="btn btn-outline-primary" onclick="onCalculate()">Calculate</button>
     </form>
-    <h3 id="result" class="p-5 text-white"></h3>
+
+
+
+
 
 
 
