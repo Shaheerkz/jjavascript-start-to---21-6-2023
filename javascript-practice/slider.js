@@ -1,7 +1,5 @@
 function slideOne() {
   const imageOne = document.getElementById("imageOne");
-  const imageTwo = document.getElementById("imageTwo");
-  imageTwo.className = "d-none";
   imageOne.className = "d-block";
 }
 
