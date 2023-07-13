@@ -12,7 +12,8 @@ function onCalculate() {
 function onConcatinate() {
   let writeName = document.getElementById("writeName");
   let writeFatherName = document.getElementById("writeFatherName");
-  const lastHeading = document.getElementById("lastHeading");
-  let add = writeName.value + " " + writeFatherName.value;
-  lastHeading.innerText = "Your Name is: " + add;
+  const fullNameShow = document.getElementById("fullNameShow");
+  let add =
+    writeName.value + " / " + " Fathers Name:  " + writeFatherName.value;
+  fullNameShow.innerText = "Your Name is: " + add;
 }
